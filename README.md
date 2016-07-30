@@ -71,7 +71,7 @@ export class TwitterParams {
  <!--- For this example I am using button, but you can attach the directive to anything you want
     and it will display the popup for share! :D
  -->
-    <button ceiboShare  [facebook]="{u: repoUrl}">Facebook</button>
+    <button ceiboShare  [facebook]="{url: repoUrl}">Facebook</button>
     <button ceiboShare  [linkedIn]="{url:repoUrl}">Linkedin</button>
     <button ceiboShare  [googlePlus]="{url:repoUrl}">Google Plus</button>
     <button ceiboShare  [twitter]="{url:repoUrl, text:'Checkout this awesome ng2 social share directive', hashtags:'angular2, social, ceiboIT'}">Twitter</button>
